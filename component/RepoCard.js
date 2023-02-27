@@ -11,7 +11,7 @@ const RepoCard = (props) => {
       <Text style={styles.title}>{props.item.title}</Text>
       <View style={styles.container2}>
         <Text>Description :{props.item.description}</Text>
-        <Text>Language :{props.item.language}</Text>
+        <Text>Language    :{props.item.language}</Text>
       </View>
     </View>
   );
